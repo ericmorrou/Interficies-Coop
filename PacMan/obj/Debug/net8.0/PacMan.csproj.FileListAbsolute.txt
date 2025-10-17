@@ -1,0 +1,14 @@
+F:\VisualStudio2022\PacMan\bin\Debug\net8.0\PacMan.exe
+F:\VisualStudio2022\PacMan\bin\Debug\net8.0\PacMan.deps.json
+F:\VisualStudio2022\PacMan\bin\Debug\net8.0\PacMan.runtimeconfig.json
+F:\VisualStudio2022\PacMan\bin\Debug\net8.0\PacMan.dll
+F:\VisualStudio2022\PacMan\bin\Debug\net8.0\PacMan.pdb
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.GeneratedMSBuildEditorConfig.editorconfig
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.AssemblyInfoInputs.cache
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.AssemblyInfo.cs
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.csproj.CoreCompileInputs.cache
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.dll
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\refint\PacMan.dll
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.pdb
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\PacMan.genruntimeconfig.cache
+F:\VisualStudio2022\PacMan\obj\Debug\net8.0\ref\PacMan.dll
