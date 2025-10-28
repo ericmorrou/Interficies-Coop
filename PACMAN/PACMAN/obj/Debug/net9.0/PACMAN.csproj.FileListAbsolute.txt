@@ -1,0 +1,14 @@
+F:\PACMAN\PACMAN\PACMAN\bin\Debug\net9.0\PACMAN.exe
+F:\PACMAN\PACMAN\PACMAN\bin\Debug\net9.0\PACMAN.deps.json
+F:\PACMAN\PACMAN\PACMAN\bin\Debug\net9.0\PACMAN.runtimeconfig.json
+F:\PACMAN\PACMAN\PACMAN\bin\Debug\net9.0\PACMAN.dll
+F:\PACMAN\PACMAN\PACMAN\bin\Debug\net9.0\PACMAN.pdb
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.GeneratedMSBuildEditorConfig.editorconfig
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.AssemblyInfoInputs.cache
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.AssemblyInfo.cs
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.csproj.CoreCompileInputs.cache
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.dll
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\refint\PACMAN.dll
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.pdb
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\PACMAN.genruntimeconfig.cache
+F:\PACMAN\PACMAN\PACMAN\obj\Debug\net9.0\ref\PACMAN.dll
