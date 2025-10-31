@@ -1,0 +1,14 @@
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.AssemblyInfoInputs.cache
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.AssemblyInfo.cs
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.csproj.CoreCompileInputs.cache
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\bin\Debug\net8.0\AmpliacionCalculadora.exe
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\bin\Debug\net8.0\AmpliacionCalculadora.deps.json
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\bin\Debug\net8.0\AmpliacionCalculadora.runtimeconfig.json
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\bin\Debug\net8.0\AmpliacionCalculadora.dll
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\bin\Debug\net8.0\AmpliacionCalculadora.pdb
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.dll
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\refint\AmpliacionCalculadora.dll
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.pdb
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\AmpliacionCalculadora.genruntimeconfig.cache
+E:\Clase\Interficies\RA1\Pr3 - AmpliaciónCalculadora\AmpliacionCalculadora\AmpliacionCalculadora\obj\Debug\net8.0\ref\AmpliacionCalculadora.dll
