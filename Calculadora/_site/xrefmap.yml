@@ -1,0 +1,127 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CalculadoraMejorada
+  name: CalculadoraMejorada
+  href: api/CalculadoraMejorada.html
+  commentId: N:CalculadoraMejorada
+  fullName: CalculadoraMejorada
+  nameWithType: CalculadoraMejorada
+- uid: CalculadoraMejorada.Calculadora
+  name: Calculadora
+  href: api/CalculadoraMejorada.Calculadora.html
+  commentId: T:CalculadoraMejorada.Calculadora
+  fullName: CalculadoraMejorada.Calculadora
+  nameWithType: Calculadora
+- uid: CalculadoraMejorada.Calculadora.Dividir(System.Double,System.Double)
+  name: Dividir(double, double)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Dividir_System_Double_System_Double_
+  commentId: M:CalculadoraMejorada.Calculadora.Dividir(System.Double,System.Double)
+  name.vb: Dividir(Double, Double)
+  fullName: CalculadoraMejorada.Calculadora.Dividir(double, double)
+  fullName.vb: CalculadoraMejorada.Calculadora.Dividir(Double, Double)
+  nameWithType: Calculadora.Dividir(double, double)
+  nameWithType.vb: Calculadora.Dividir(Double, Double)
+- uid: CalculadoraMejorada.Calculadora.Dividir*
+  name: Dividir
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Dividir_
+  commentId: Overload:CalculadoraMejorada.Calculadora.Dividir
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.Dividir
+  nameWithType: Calculadora.Dividir
+- uid: CalculadoraMejorada.Calculadora.Factorial(System.Int32)
+  name: Factorial(int)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Factorial_System_Int32_
+  commentId: M:CalculadoraMejorada.Calculadora.Factorial(System.Int32)
+  name.vb: Factorial(Integer)
+  fullName: CalculadoraMejorada.Calculadora.Factorial(int)
+  fullName.vb: CalculadoraMejorada.Calculadora.Factorial(Integer)
+  nameWithType: Calculadora.Factorial(int)
+  nameWithType.vb: Calculadora.Factorial(Integer)
+- uid: CalculadoraMejorada.Calculadora.Factorial*
+  name: Factorial
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Factorial_
+  commentId: Overload:CalculadoraMejorada.Calculadora.Factorial
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.Factorial
+  nameWithType: Calculadora.Factorial
+- uid: CalculadoraMejorada.Calculadora.Multiplicar(System.Double,System.Double)
+  name: Multiplicar(double, double)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Multiplicar_System_Double_System_Double_
+  commentId: M:CalculadoraMejorada.Calculadora.Multiplicar(System.Double,System.Double)
+  name.vb: Multiplicar(Double, Double)
+  fullName: CalculadoraMejorada.Calculadora.Multiplicar(double, double)
+  fullName.vb: CalculadoraMejorada.Calculadora.Multiplicar(Double, Double)
+  nameWithType: Calculadora.Multiplicar(double, double)
+  nameWithType.vb: Calculadora.Multiplicar(Double, Double)
+- uid: CalculadoraMejorada.Calculadora.Multiplicar*
+  name: Multiplicar
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Multiplicar_
+  commentId: Overload:CalculadoraMejorada.Calculadora.Multiplicar
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.Multiplicar
+  nameWithType: Calculadora.Multiplicar
+- uid: CalculadoraMejorada.Calculadora.Potencia(System.Double,System.Double)
+  name: Potencia(double, double)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Potencia_System_Double_System_Double_
+  commentId: M:CalculadoraMejorada.Calculadora.Potencia(System.Double,System.Double)
+  name.vb: Potencia(Double, Double)
+  fullName: CalculadoraMejorada.Calculadora.Potencia(double, double)
+  fullName.vb: CalculadoraMejorada.Calculadora.Potencia(Double, Double)
+  nameWithType: Calculadora.Potencia(double, double)
+  nameWithType.vb: Calculadora.Potencia(Double, Double)
+- uid: CalculadoraMejorada.Calculadora.Potencia*
+  name: Potencia
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Potencia_
+  commentId: Overload:CalculadoraMejorada.Calculadora.Potencia
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.Potencia
+  nameWithType: Calculadora.Potencia
+- uid: CalculadoraMejorada.Calculadora.RaizCuadrada(System.Double)
+  name: RaizCuadrada(double)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_RaizCuadrada_System_Double_
+  commentId: M:CalculadoraMejorada.Calculadora.RaizCuadrada(System.Double)
+  name.vb: RaizCuadrada(Double)
+  fullName: CalculadoraMejorada.Calculadora.RaizCuadrada(double)
+  fullName.vb: CalculadoraMejorada.Calculadora.RaizCuadrada(Double)
+  nameWithType: Calculadora.RaizCuadrada(double)
+  nameWithType.vb: Calculadora.RaizCuadrada(Double)
+- uid: CalculadoraMejorada.Calculadora.RaizCuadrada*
+  name: RaizCuadrada
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_RaizCuadrada_
+  commentId: Overload:CalculadoraMejorada.Calculadora.RaizCuadrada
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.RaizCuadrada
+  nameWithType: Calculadora.RaizCuadrada
+- uid: CalculadoraMejorada.Calculadora.Restar(System.Double,System.Double)
+  name: Restar(double, double)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Restar_System_Double_System_Double_
+  commentId: M:CalculadoraMejorada.Calculadora.Restar(System.Double,System.Double)
+  name.vb: Restar(Double, Double)
+  fullName: CalculadoraMejorada.Calculadora.Restar(double, double)
+  fullName.vb: CalculadoraMejorada.Calculadora.Restar(Double, Double)
+  nameWithType: Calculadora.Restar(double, double)
+  nameWithType.vb: Calculadora.Restar(Double, Double)
+- uid: CalculadoraMejorada.Calculadora.Restar*
+  name: Restar
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Restar_
+  commentId: Overload:CalculadoraMejorada.Calculadora.Restar
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.Restar
+  nameWithType: Calculadora.Restar
+- uid: CalculadoraMejorada.Calculadora.Sumar(System.Double,System.Double)
+  name: Sumar(double, double)
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Sumar_System_Double_System_Double_
+  commentId: M:CalculadoraMejorada.Calculadora.Sumar(System.Double,System.Double)
+  name.vb: Sumar(Double, Double)
+  fullName: CalculadoraMejorada.Calculadora.Sumar(double, double)
+  fullName.vb: CalculadoraMejorada.Calculadora.Sumar(Double, Double)
+  nameWithType: Calculadora.Sumar(double, double)
+  nameWithType.vb: Calculadora.Sumar(Double, Double)
+- uid: CalculadoraMejorada.Calculadora.Sumar*
+  name: Sumar
+  href: api/CalculadoraMejorada.Calculadora.html#CalculadoraMejorada_Calculadora_Sumar_
+  commentId: Overload:CalculadoraMejorada.Calculadora.Sumar
+  isSpec: "True"
+  fullName: CalculadoraMejorada.Calculadora.Sumar
+  nameWithType: Calculadora.Sumar

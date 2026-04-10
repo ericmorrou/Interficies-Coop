@@ -1,0 +1,238 @@
+/* =============================================
+   CALCULADORA MEJORADA — Custom DocFX Theme
+   ============================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+:root {
+  --brand-primary: #6366f1;
+  --brand-secondary: #8b5cf6;
+  --brand-accent: #06b6d4;
+  --bg-dark: #0f0f1a;
+  --bg-card: #1a1a2e;
+  --bg-card-hover: #16213e;
+  --text-primary: #e2e8f0;
+  --text-muted: #94a3b8;
+  --border-color: #2d2d4e;
+  --code-bg: #1e1e3f;
+}
+
+/* Base */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%) !important;
+  border-bottom: 1px solid var(--border-color);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.15);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--brand-primary) !important;
+  letter-spacing: -0.5px;
+}
+
+.navbar .nav-link {
+  color: var(--text-muted) !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: var(--brand-primary) !important;
+}
+
+/* Sidebar */
+.sidebar, .toc {
+  background-color: var(--bg-card) !important;
+  border-right: 1px solid var(--border-color);
+}
+
+.toc .nav-item a {
+  color: var(--text-muted) !important;
+  font-size: 0.875rem;
+  transition: all 0.2s;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+.toc .nav-item a:hover,
+.toc .nav-item a.active {
+  color: var(--brand-primary) !important;
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+/* Main content area */
+article, .content {
+  background-color: var(--bg-dark);
+  color: var(--text-primary);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2.2rem;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #c7d2fe;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  color: var(--brand-accent);
+}
+
+/* Links */
+a {
+  color: var(--brand-primary) !important;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--brand-accent) !important;
+  text-decoration: underline;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: 'JetBrains Mono', monospace !important;
+  background-color: var(--code-bg) !important;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: #a5f3fc !important;
+}
+
+pre {
+  padding: 1.25rem !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+code {
+  padding: 2px 6px;
+  font-size: 0.875em;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+table thead {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+}
+
+table thead th {
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+  border: none;
+}
+
+table tbody tr {
+  background-color: var(--bg-card);
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.2s;
+}
+
+table tbody tr:hover {
+  background-color: var(--bg-card-hover);
+}
+
+table tbody td {
+  padding: 10px 16px;
+  color: var(--text-primary);
+  border: none;
+}
+
+/* API docs — method cards */
+.memberlist .member {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.memberlist .member:hover {
+  border-color: var(--brand-primary);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.15);
+}
+
+/* Badges / labels */
+.badge, .label {
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+  color: white;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* Alert / Note boxes */
+.alert, .NOTE, .TIP, .WARNING {
+  border-radius: 8px;
+  border-left: 4px solid var(--brand-primary);
+  background-color: rgba(99, 102, 241, 0.1);
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg-card) !important;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-muted) !important;
+  font-size: 0.85rem;
+}
+
+/* Landing page hero */
+.landing h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}

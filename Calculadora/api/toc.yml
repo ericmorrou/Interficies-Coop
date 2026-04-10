@@ -1,0 +1,10 @@
+### YamlMime:TableOfContent
+items:
+- uid: CalculadoraMejorada
+  name: CalculadoraMejorada
+  type: Namespace
+  items:
+  - uid: CalculadoraMejorada.Calculadora
+    name: Calculadora
+    type: Class
+memberLayout: SamePage

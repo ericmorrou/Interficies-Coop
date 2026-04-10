@@ -1,16 +1,46 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace CalculadoraMejorada
 {
-    // Contiene los métodos para realizar las operaciones matemáticas.
+    /// <summary>
+    /// Clase que contiene los métodos para realizar operaciones matemáticas básicas y científicas.
+    /// Separa la lógica de cálculo de la interfaz de usuario.
+    /// </summary>
     public class Calculadora
     {
+        /// <summary>
+        /// Suma dos números reales.
+        /// </summary>
+        /// <param name="a">Primer sumando.</param>
+        /// <param name="b">Segundo sumando.</param>
+        /// <returns>La suma de <paramref name="a"/> y <paramref name="b"/>.</returns>
         public double Sumar(double a, double b) => a + b;
+
+        /// <summary>
+        /// Resta el segundo número al primero.
+        /// </summary>
+        /// <param name="a">Minuendo.</param>
+        /// <param name="b">Sustraendo.</param>
+        /// <returns>La diferencia entre <paramref name="a"/> y <paramref name="b"/>.</returns>
         public double Restar(double a, double b) => a - b;
+
+        /// <summary>
+        /// Multiplica dos números reales.
+        /// </summary>
+        /// <param name="a">Primer factor.</param>
+        /// <param name="b">Segundo factor.</param>
+        /// <returns>El producto de <paramref name="a"/> y <paramref name="b"/>.</returns>
         public double Multiplicar(double a, double b) => a * b;
 
+        /// <summary>
+        /// Divide el dividendo entre el divisor.
+        /// </summary>
+        /// <param name="a">Dividendo.</param>
+        /// <param name="b">Divisor. No puede ser cero.</param>
+        /// <returns>El cociente de <paramref name="a"/> entre <paramref name="b"/>.</returns>
+        /// <exception cref="DivideByZeroException">Se lanza cuando <paramref name="b"/> es 0.</exception>
         public double Dividir(double a, double b)
         {
             if (b == 0)
@@ -18,8 +48,20 @@ namespace CalculadoraMejorada
             return a / b;
         }
 
+        /// <summary>
+        /// Calcula la potencia de una base elevada a un exponente.
+        /// </summary>
+        /// <param name="a">Base de la potencia.</param>
+        /// <param name="b">Exponente.</param>
+        /// <returns>El resultado de elevar <paramref name="a"/> a la potencia <paramref name="b"/>.</returns>
         public double Potencia(double a, double b) => Math.Pow(a, b);
 
+        /// <summary>
+        /// Calcula la raíz cuadrada de un número real no negativo.
+        /// </summary>
+        /// <param name="a">Número del que se calcula la raíz cuadrada. Debe ser mayor o igual a 0.</param>
+        /// <returns>La raíz cuadrada de <paramref name="a"/>.</returns>
+        /// <exception cref="ArgumentException">Se lanza cuando <paramref name="a"/> es negativo.</exception>
         public double RaizCuadrada(double a)
         {
             if (a < 0)
@@ -27,6 +69,15 @@ namespace CalculadoraMejorada
             return Math.Sqrt(a);
         }
 
+        /// <summary>
+        /// Calcula el factorial de un número entero no negativo.
+        /// El factorial de n es el producto de todos los enteros positivos desde 1 hasta n.
+        /// Por convenio, el factorial de 0 es 1.
+        /// </summary>
+        /// <param name="n">Número entero del que se calcula el factorial. Debe estar entre 0 y 20.</param>
+        /// <returns>El factorial de <paramref name="n"/> como un valor <c>long</c>.</returns>
+        /// <exception cref="ArgumentException">Se lanza cuando <paramref name="n"/> es negativo.</exception>
+        /// <exception cref="OverflowException">Se lanza cuando <paramref name="n"/> es mayor que 20, ya que el resultado supera la capacidad de un <c>long</c>.</exception>
         public long Factorial(int n)
         {
             if (n < 0)
@@ -45,11 +96,23 @@ namespace CalculadoraMejorada
         }
     }
 
+    /// <summary>
+    /// Clase principal que gestiona la interfaz de consola de la Calculadora Mejorada.
+    /// Contiene el bucle principal del programa y todos los métodos auxiliares de entrada/salida.
+    /// </summary>
     class Program
     {
-        // Almacena las últimas 5 operaciones usando una Cola para eficiencia.
+        /// <summary>
+        /// Cola que almacena las últimas 5 operaciones realizadas.
+        /// Se usa una <see cref="Queue{T}"/> para eliminar eficientemente el elemento más antiguo cuando se supera el límite.
+        /// </summary>
         private static readonly Queue<string> historial = new Queue<string>(5);
 
+        /// <summary>
+        /// Punto de entrada de la aplicación. Gestiona el bucle principal del menú
+        /// y delega cada operación al método correspondiente.
+        /// </summary>
+        /// <param name="args">Argumentos de línea de comandos (no utilizados).</param>
         static void Main(string[] args)
         {
             Calculadora calc = new Calculadora();
@@ -163,7 +226,19 @@ namespace CalculadoraMejorada
             }
         }
 
-        // --- Lógica de la Práctica 3 ---
+        /// <summary>
+        /// Solicita al usuario los datos necesarios para calcular el precio final de un producto,
+        /// aplicando IVA y descuentos opcionales (por ser socio y/o por volumen de compra).
+        /// El resultado se muestra en un resumen detallado y se añade al historial.
+        /// </summary>
+        /// <remarks>
+        /// Los descuentos aplicables son:
+        /// <list type="bullet">
+        ///   <item><description>5% si el cliente es socio.</description></item>
+        ///   <item><description>10% si la cantidad de productos es mayor que 10.</description></item>
+        /// </list>
+        /// Ambos descuentos son acumulables.
+        /// </remarks>
         static void CalcularPrecioFinal()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -210,8 +285,10 @@ namespace CalculadoraMejorada
             AñadirAHistorial(registro);
         }
 
-        // --- Helpers de Entrada/Salida ---
-
+        /// <summary>
+        /// Muestra el menú principal de la aplicación en la consola con formato de colores.
+        /// Limpia la pantalla antes de mostrar las opciones disponibles.
+        /// </summary>
         static void MostrarMenu()
         {
             Console.Clear();
@@ -237,19 +314,33 @@ namespace CalculadoraMejorada
             Console.ResetColor();
         }
 
-        // Helpers reutilizables para pedir datos
+        /// <summary>
+        /// Muestra un mensaje de texto al usuario y espera que introduzca un número decimal.
+        /// </summary>
+        /// <param name="prompt">Texto a mostrar antes de leer la entrada.</param>
+        /// <returns>El número decimal introducido por el usuario.</returns>
         static double PedirDouble(string prompt)
         {
             Console.Write(prompt);
             return Convert.ToDouble(Console.ReadLine());
         }
 
+        /// <summary>
+        /// Muestra un mensaje de texto al usuario y espera que introduzca un número entero.
+        /// </summary>
+        /// <param name="prompt">Texto a mostrar antes de leer la entrada.</param>
+        /// <returns>El número entero introducido por el usuario.</returns>
         static int PedirInt(string prompt)
         {
             Console.Write(prompt);
             return Convert.ToInt32(Console.ReadLine());
         }
 
+        /// <summary>
+        /// Muestra el encabezado de una operación y solicita al usuario un único número decimal.
+        /// </summary>
+        /// <param name="operacion">Nombre de la operación a mostrar como encabezado.</param>
+        /// <returns>El número decimal introducido por el usuario.</returns>
         static double PedirUnNumero(string operacion)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -258,6 +349,14 @@ namespace CalculadoraMejorada
             return PedirDouble("Ingrese el número: ");
         }
 
+        /// <summary>
+        /// Muestra el encabezado de una operación y solicita al usuario dos números decimales.
+        /// Permite personalizar las etiquetas de cada campo.
+        /// </summary>
+        /// <param name="operacion">Nombre de la operación a mostrar como encabezado.</param>
+        /// <param name="etiqueta1">Etiqueta para el primer número. Por defecto "Primer número".</param>
+        /// <param name="etiqueta2">Etiqueta para el segundo número. Por defecto "Segundo número".</param>
+        /// <returns>Una tupla con los dos números decimales introducidos por el usuario.</returns>
         static (double, double) PedirDosNumeros(string operacion, string etiqueta1 = "Primer número", string etiqueta2 = "Segundo número")
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -268,6 +367,10 @@ namespace CalculadoraMejorada
             return (a, b);
         }
 
+        /// <summary>
+        /// Muestra un mensaje de error en color rojo en la consola.
+        /// </summary>
+        /// <param name="mensaje">Texto del mensaje de error a mostrar.</param>
         static void MostrarError(string mensaje)
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -275,13 +378,22 @@ namespace CalculadoraMejorada
             Console.ResetColor();
         }
 
+        /// <summary>
+        /// Muestra el resultado de una operación en color verde en la consola.
+        /// </summary>
+        /// <param name="mensaje">Texto con el resultado a mostrar (normalmente en formato "a op b = resultado").</param>
         static void MostrarResultado(string mensaje)
         {
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"\nResultado: {mensaje}");
             Console.ResetColor();
         }
-        
+
+        /// <summary>
+        /// Añade una operación al historial. Si el historial ya contiene 5 entradas,
+        /// elimina la más antigua antes de insertar la nueva.
+        /// </summary>
+        /// <param name="operacion">Cadena de texto que describe la operación realizada.</param>
         static void AñadirAHistorial(string operacion)
         {
             if (historial.Count >= 5)
@@ -291,6 +403,10 @@ namespace CalculadoraMejorada
             historial.Enqueue(operacion); // Añade el elemento más nuevo
         }
 
+        /// <summary>
+        /// Muestra por consola el historial de las últimas operaciones realizadas.
+        /// Si el historial está vacío, lo indica al usuario.
+        /// </summary>
         static void MostrarHistorial()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;

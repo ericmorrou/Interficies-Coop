@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: CalculadoraMejorada
+  commentId: N:CalculadoraMejorada
+  id: CalculadoraMejorada
+  children:
+  - CalculadoraMejorada.Calculadora
+  langs:
+  - csharp
+  - vb
+  name: CalculadoraMejorada
+  nameWithType: CalculadoraMejorada
+  fullName: CalculadoraMejorada
+  type: Namespace
+  assemblies:
+  - Calculadora
+references:
+- uid: CalculadoraMejorada.Calculadora
+  commentId: T:CalculadoraMejorada.Calculadora
+  href: CalculadoraMejorada.Calculadora.html
+  name: Calculadora
+  nameWithType: Calculadora
+  fullName: CalculadoraMejorada.Calculadora

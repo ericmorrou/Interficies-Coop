@@ -1,0 +1,11 @@
+{
+  "CalculadoraMejorada": "CalculadoraMejorada.yml",
+  "CalculadoraMejorada.Calculadora": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.Dividir(System.Double,System.Double)": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.Factorial(System.Int32)": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.Multiplicar(System.Double,System.Double)": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.Potencia(System.Double,System.Double)": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.RaizCuadrada(System.Double)": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.Restar(System.Double,System.Double)": "CalculadoraMejorada.Calculadora.yml",
+  "CalculadoraMejorada.Calculadora.Sumar(System.Double,System.Double)": "CalculadoraMejorada.Calculadora.yml"
+}
