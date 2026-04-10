@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/rogergonzalbo/.nuget/packages/": {}
+    "/Users/rogergongas/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/Lexar/Interficies/VisualStudio2022/Calculadora/Calculadora/Calculadora.csproj",
+      "projectUniqueName": "/Users/rogergongas/Developer/Interficies/Interficies-Coop/Calculadora/Calculadora/Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "/Volumes/Lexar/Interficies/VisualStudio2022/Calculadora/Calculadora/Calculadora.csproj",
-      "packagesPath": "/Users/rogergonzalbo/.nuget/packages/",
-      "outputPath": "/Volumes/Lexar/Interficies/VisualStudio2022/Calculadora/Calculadora/obj/",
+      "projectPath": "/Users/rogergongas/Developer/Interficies/Interficies-Coop/Calculadora/Calculadora/Calculadora.csproj",
+      "packagesPath": "/Users/rogergongas/.nuget/packages/",
+      "outputPath": "/Users/rogergongas/Developer/Interficies/Interficies-Coop/Calculadora/Calculadora/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rogergonzalbo/.nuget/NuGet/NuGet.Config"
+        "/Users/rogergongas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -43,7 +43,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -64,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/rogergonzalbo/.dotnet/sdk/8.0.415/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
